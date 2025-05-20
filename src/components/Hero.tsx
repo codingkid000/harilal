@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import resumeData from '../data/resumeData';
-import profileImage from '../Images/IMG_5720.jpg';
+import profileImage from '../Images/hari.jpg';
 
 const Hero: React.FC = () => {
   return (

@@ -46,9 +46,9 @@ const Navbar: React.FC = () => {
                 {link.name}
               </a>
             ))}
-            
+
            <a 
-  href="/Resume.pdf" 
+  href="/harilal.pdf" 
   className="btn btn-primary flex items-center gap-2"
   download
 >
