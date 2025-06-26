@@ -29,6 +29,8 @@ const Navbar: React.FC = () => {
     { name: 'Contact', href: '#contact' },
   ];
 
+  const resumeFile = "/Hari.pdf"; // This must match the name in the public folder
+
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
@@ -47,15 +49,14 @@ const Navbar: React.FC = () => {
               </a>
             ))}
 
-           <a 
-  href="/harilal.pdf" 
-  className="btn btn-primary flex items-center gap-2"
-  download
->
-  <Download size={18} />
-  Resume
-</a>
-
+            <a 
+              href={resumeFile}
+              className="btn btn-primary flex items-center gap-2"
+              download
+            >
+              <Download size={18} />
+              Resume
+            </a>
           </div>
 
           {/* Mobile Navigation Toggle */}
@@ -83,10 +84,9 @@ const Navbar: React.FC = () => {
                 </a>
               ))}
               <a 
-                href="/resume.pdf" 
+                href={resumeFile}
                 className="btn btn-primary flex items-center justify-center gap-2"
-                target="_blank" 
-                rel="noopener noreferrer"
+                download
               >
                 <Download size={18} />
                 Resume
