@@ -71,23 +71,23 @@ const resumeData: ResumeData = {
     }
   ],
   experience: [
-    // {
-    //   company: "Zoro Tech",
-    //   position: "Django Developer",
-    //   period: "Apr 2025– Present",
-    //   location: "Nagercoil",
-    //   responsibilities: [
-    //     "Developing and maintaining robust Django-based web applications for internal and client-facing platforms.",
-    //     "Implementing RESTful APIs and integrating third-party services.",
-    //     "Collaborating with React frontend developers for seamless backend integration.",
-    //     "Managing schema design, migrations, and performance optimization."
-    //   ]
-    // },
+    {
+      company: "JCS Infotech",
+      position: "Django Developer",
+      period: "jun 2025– Present",
+      location: "Nagercoil",
+      responsibilities: [
+        "Developing and maintaining robust Django-based web applications for internal and client-facing platforms.",
+        "Implementing RESTful APIs and integrating third-party services.",
+        "Collaborating with React frontend developers for seamless backend integration.",
+        "Managing schema design, migrations, and performance optimization."
+      ]
+  },
     {
       company: "Spangles Infotech",
       position: "Python / Django Developer",
       // period: "Jan 2023– Apr 2025",
-      period: "Jan 2023– Present",
+      period: "Jan 2023– May 2025",
       location: "Nagercoil",
       responsibilities: [
         "Developed user authentication, dashboards, and CRUD modules in Django.",
